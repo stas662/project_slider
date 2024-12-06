@@ -19,7 +19,7 @@
     flex-direction: column;
   }
   
-  .container, .dot-container {
+  .container {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -57,22 +57,6 @@
     opacity: 1;
     transition: opacity 0.3s ease-in 0.4s;
   }
-
-  .dot {
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    background-color: #b9b9b9;
-    margin: auto 5px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-  }
-
-  .dot.activeDot {
-    padding: 10px;
-    background-color: #FFF;
-  }
-
 
   @media (width < 1024px) {
     .container {
